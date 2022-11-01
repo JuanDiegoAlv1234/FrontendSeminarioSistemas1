@@ -1,0 +1,252 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+th, td {
+
+  border-color: #96D4D4;
+  padding: 15px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card2 {
+
+  max-width: 300px;
+  margin: auto;
+    display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 50px;
+
+
+  text-align: center;
+  font-family: arial;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+    display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 50px;
+
+
+  text-align: center;
+  font-family: arial;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 200px;
+
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+} 
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.center {
+  margin: auto;
+  /* width: 30%; width -> react*/
+ 
+  padding: 10px;
+  }
+
+
+
+  .centerCard {
+    margin: 8rem;
+    padding: 4rem;
+
+    /* IMPORTANTE */
+    text-align: center;
+    }
+
+
+
+  .imagen {
+    object-fit: cover;
+    width: 150px;
+    height:  50px;
+    padding: 0px;
+    margin: 00px;
+
+}
+.MenuPortal {
+  height: auto; width: 97%;
+/*importante*/
+min-height:10vh;
+
+}
+.Barra {
+  
+  height: 50%; width: 103%;
+
+}
+footer{
+
+	position: relative;
+	width: 110%;
+	margin-bottom: -1px;
+	margin-left: -10px;
+	margin-right: -10px;
+	height: 50px;
+	bottom: 20;
+
+ }
+ 
+
+.BarraDown {
+
+  top: 0;
+  width:100%;
+
+  /*opacity: 0.8;
+ 
+  filter:  alpha(opacity=90);
+*/
+
+}
+
+
+.cardsDown {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+
+
+}
+.Contenedor{
+
+  height: 0;
+}
+body { 
+  background-color: #f9feff;
+  margin: 0;
+
+  position: relative;
+
+  margin-bottom: 40px;
+
+  overflow-x:hidden;
+
+
+}
+
+
+
+
+  .Fondoportal{
+    background-image: url("https://github.com/Juandi22001/LoginREACT/blob/main/Imagenes/FondoPortal1.png?raw=true");
+  
+     background-color: #e0edf0;
+     overflow: hidden;
+     background-position: center left;
+   
+     background-size: cover;
+     width:100vw;
+     height:100vh;
+     overflow-y:hidden;
+    
+  }
+
+
+ 
+
+.bienvenida {
+  background-color: #00862A;
+  overflow: hidden;
+
+  background-image: url("https://github.com/Juandi22001/LoginREACT/blob/main/Imagenes/FondoPortal.gif?raw=true");
+  background-position: center center;
+  height: 0vw;
+  overflow-y:hidden;
+  background-size: cover;
+  width:100vw;
+  height: 100vh;}
+
+
+
+ .butonVERDE{
+
+  background-color: #7FBC5B;
+ }
+
+ .tarjeta {
+
+  max-width: 250px;
+  margin: auto;
+    display: grid;
+  grid-template-columns: repeat( minmax(800px, 1fr));
+  grid-gap: 70px;
+
+  font-family: arial;
+}
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 20px;
+
+
+}
